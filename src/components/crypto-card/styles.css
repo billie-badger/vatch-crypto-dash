@@ -1,0 +1,43 @@
+.card {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #222;
+    border-radius: 4px;
+}
+
+.card.gain {
+    border: 2px solid #00e399;
+}
+
+.card.loss {
+    border: 2px solid #ff4b4b;
+}
+
+.card .name {
+    padding: 8px 12px;
+    font-weight: normal;
+}
+
+.card .name span {
+    margin: 0px 0px 0px 4px;
+}
+
+.card .price {
+    padding: 6px 12px;
+}
+
+.card .percent {
+    font-size: 0.9em;
+    padding: 6px 12px;
+}
+
+.card .percent.loss,
+.card .price.loss{
+    color: #ff4b4b;
+}
+
+.card .percent.gain,
+.card .price.gain{
+    color: #00e399;
+}
